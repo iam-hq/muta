@@ -1,6 +1,6 @@
 import Container from "../Components/Container";
 import Img1 from "../Assets/img1.png";
-import { Link } from "react-router-dom";
+import PrimaryButton from "../Components/PrimaryButton";
 
 export default function Home() {
   return (
@@ -42,33 +42,59 @@ export default function Home() {
         of our ever-growing community of dedicated educators.
       </Container>
 
-      <Container
-        transparent={true}
-        size="w-full"
-        className="md:grid md:grid-cols-3"
-      >
-        <Container>
-          <div className="border-l-4 border-green-500 p-4 text-blue-700 text-2xl font-bold">
-            Our Objective
+      <Container transparent={true} className="md:flex items-stretch">
+        <div class="flex-1 p-4">
+          <div class="block bg-white overflow-hidden border border-gray-100 h-full rounded-md shadow">
+            <div class="p-4">
+              <h2 class="mt-2 mb-2 border-l-4 border-green-500 p-4 text-blue-700 text-2xl font-bold">
+                Our Objective
+              </h2>
+              <p class="p-4 text-center text-lg">
+                To provide a generation of Muslim teachers who will impart
+                knowledge, skills, and values while instilling discipline,
+                integrity, and hard work in the societies they emerge from, for
+                the sustainable development of Malawi.
+              </p>
+            </div>
           </div>
-          <div className="p-4 text-center text-lg">
-            To provide a generation of Muslim teachers who will impart
-            knowledge, skills, and values while instilling discipline,
-            integrity, and hard work in the societies they emerge from, for the
-            sustainable development of Malawi.
+        </div>
+        <div class="flex-1 p-4">
+          <div class="block bg-white overflow-hidden border border-gray-100 h-full rounded-md shadow">
+            <div class="p-4">
+              <h2 class="mt-2 mb-2 border-l-4 border-green-500 p-4 text-blue-700 text-2xl font-bold">
+                Mission & Vision
+              </h2>
+              <p class="p-4 text-center text-lg">
+                Creating a self-reliant Muslim teacher to promote teachin
+                professional ethics in relation to Islamic doctrine in
+                interpreting misconceptions and government policies to the
+                communities, thereby contributing positively to the
+                socio-economic status of the future Malawian generation.
+              </p>
+            </div>
           </div>
-        </Container>
-        <Container>
-          <div className="border-l-4 border-green-500 p-4 text-blue-700 text-2xl font-bold">
-            Mission & Vision
+        </div>
+        <div class="flex-1 p-4">
+          <div class="block bg-white overflow-hidden border border-gray-100 h-full rounded-md shadow">
+            <div class="p-4">
+              <h2 class="mt-2 mb-2 border-l-4 border-green-500 p-4 text-blue-700 text-2xl font-bold">
+                Brief History
+              </h2>
+              <p class="p-4 text-center text-lg">
+                MUTA, established in 2005 and officially registered in 2021, is
+                a non-profit organization commited to the holistic development
+                of Muslim teachers in Malawi.
+              </p>
+            </div>
           </div>
-          <div className="p-4 text-center text-lg">
-            To provide a generation of Muslim teachers who will impart
-            knowledge, skills, and values while instilling discipline,
-            integrity, and hard work in the societies they emerge from, for the
-            sustainable development of Malawi.
-          </div>
-        </Container>
+        </div>
+      </Container>
+
+      <Container className="flex justify-between">
+        <div className="font-bold text-blue-700 text-2xl">
+          MUTA's constitution
+        </div>
+        <PrimaryButton>Download</PrimaryButton>
       </Container>
     </>
   );
