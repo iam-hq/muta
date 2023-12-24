@@ -42,7 +42,7 @@ export default function Home() {
         of our ever-growing community of dedicated educators.
       </Container>
 
-      <Container transparent={true} className="md:flex items-stretch">
+      <Container transparent={true} className="lg:flex items-stretch">
         <div class="flex-1 p-4">
           <div class="block bg-white overflow-hidden border border-gray-100 h-full rounded-md shadow">
             <div class="p-4">
@@ -95,6 +95,32 @@ export default function Home() {
           MUTA's constitution
         </div>
         <PrimaryButton>Download</PrimaryButton>
+      </Container>
+
+      <Container transparent padding="">
+        <div className="text-blue-700 font-bold text-3xl text-center">
+          Upcoming Events
+        </div>
+        {[1, 2, 3].map((item, index) => (
+          <Container
+            key={index}
+            ypadding="py-4"
+            className="md:flex items-center gap-5 hover:bg-gray-100 hover:shadow-lg"
+          >
+            <div className="font-bold pb-3 md:pb-0 md:text-2xl">
+              6th Nov, 2021
+            </div>
+            <img
+              className="w-52 h-36 object-cover rounded-3xl"
+              src={Img1}
+              alt=""
+            />
+            <div className="text-2xl">NEC Meeting at Cape Maclear CDSS</div>
+            <button className="ml-auto rounded-full px-6 py-3 border-2 border-blue-700 text-blue-700 font-bold hover:bg-blue-700 hover:text-white">
+              Read More
+            </button>
+          </Container>
+        ))}
       </Container>
     </>
   );
