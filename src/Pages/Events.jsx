@@ -1,7 +1,6 @@
 import Container from "../Components/Container";
-import Img1 from "../Assets/img1.png";
-import PrimaryButton from "../Components/PrimaryButton";
 import { useState } from "react";
+import { pastEvents } from "../Data/events";
 
 export default function Events() {
   const [currentState, setCurrentState] = useState("past");
@@ -19,7 +18,11 @@ export default function Events() {
           </div>
           <div className="text-xl">23rd September 2021, Lilongwe</div>
         </div>
-        <img className="w-full h-[80vh] object-cover" src={Img1} alt="" />
+        <img
+          className="w-full h-[80vh] object-cover"
+          src={"/parliament_visit_2.jpg"}
+          alt=""
+        />
       </div>
 
       <Container
@@ -50,23 +53,25 @@ export default function Events() {
       </Container>
 
       {currentState === "past"
-        ? [1, 2, 3, 4, 5, 6].map((item, index) => (
+        ? pastEvents.map((event, index) => (
             <Container
               key={index}
               ypadding="py-4"
               className="md:flex items-center gap-5 hover:bg-gray-100 hover:shadow-lg"
             >
-              <div className="font-bold pb-3 md:pb-0 md:text-2xl">
-                6th Nov, 2021
+              <div className="md:grid grid-cols-2 items-center gap-4">
+                <div className="font-bold pb-3 md:pb-0 md:text-2xl">
+                  {event.date}
+                </div>
+                <img
+                  className="w-52 h-36 object-cover rounded-3xl"
+                  src={event.image}
+                  alt=""
+                />
               </div>
-              <img
-                className="w-52 h-36 object-cover rounded-3xl"
-                src={Img1}
-                alt=""
-              />
-              <div className="text-2xl">NEC Meeting at Cape Maclear CDSS</div>
+              <div className="text-2xl">{event.text}</div>
               <button className="ml-auto rounded-full px-6 py-3 border-2 border-blue-700 text-blue-700 font-bold hover:bg-blue-700 hover:text-white">
-                Read More
+                Read&nbsp;More
               </button>
             </Container>
           ))
@@ -81,7 +86,7 @@ export default function Events() {
               </div>
               <img
                 className="w-52 h-36 object-cover rounded-3xl"
-                src={Img1}
+                src={"/parliament_visit_1.jpg"}
                 alt=""
               />
               <div className="text-2xl">NEC Meeting at Cape Maclear CDSS</div>

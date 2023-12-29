@@ -9,10 +9,12 @@ export default function Footer() {
         <div className="col-span-2">
           <Link
             to={"/"}
-            className="shrink-0 items-center dark:text-white inline-flex"
+            className="shrink-0 items-center dark:text-white inline-flex gap-4"
           >
-            <AppLogo className="block h-9 w-auto fill-gray-800" />
-            <div className="text-gray-800font-extrabold text-lg">MUTA</div>
+            <AppLogo className="block h-20 sm:h-10 w-auto fill-gray-200" />
+            <div className="text-gray-200 font-extrabold text-lg hidden sm:flex">
+              MUTA
+            </div>
           </Link>
           <div className="">
             Established in 2005 and officially registered in 2021, the Muslim
@@ -31,8 +33,8 @@ export default function Footer() {
           <div className="my-6 sm:my-0">
             <div className="text-lg font-bold">Contact Us</div>
             <div>
-              <div className="flex gap-2">
-                <div>
+              <div className="sm:flex gap-2">
+                <div className="hidden sm:block">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -49,8 +51,8 @@ export default function Footer() {
                   Blantyre, Malawi. <br />
                 </div>
               </div>
-              <div className="flex gap-2">
-                <div>
+              <div className="sm:flex gap-2 mt-2 sm:mt-0">
+                <div className="hidden sm:block">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"

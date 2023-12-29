@@ -129,6 +129,66 @@ export default function Membership() {
             <div className="font-black text-3xl">William Shabaan</div>
             <div className="text-lg font-light">Secretary General</div>
           </div>
+
+          <div className="flex flex-col items-center">
+            <img
+              src={Img1}
+              className="w-48 h-48 object-cover rounded-full border-4 shadow-lg"
+              alt=""
+            />
+            <div className="font-black text-3xl">Duncani Mjuweni</div>
+            <div className="text-lg font-light">President</div>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <img
+              src={Img1}
+              className="w-48 h-48 object-cover rounded-full border-4 shadow-lg"
+              alt=""
+            />
+            <div className="font-black text-3xl">Bullah M'bwana</div>
+            <div className="text-lg font-light">Vice President</div>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <img
+              src={Img1}
+              className="w-48 h-48 object-cover rounded-full border-4 shadow-lg"
+              alt=""
+            />
+            <div className="font-black text-3xl">William Shabaan</div>
+            <div className="text-lg font-light">Secretary General</div>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <img
+              src={Img1}
+              className="w-48 h-48 object-cover rounded-full border-4 shadow-lg"
+              alt=""
+            />
+            <div className="font-black text-3xl">Duncani Mjuweni</div>
+            <div className="text-lg font-light">President</div>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <img
+              src={Img1}
+              className="w-48 h-48 object-cover rounded-full border-4 shadow-lg"
+              alt=""
+            />
+            <div className="font-black text-3xl">Bullah M'bwana</div>
+            <div className="text-lg font-light">Vice President</div>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <img
+              src={Img1}
+              className="w-48 h-48 object-cover rounded-full border-4 shadow-lg"
+              alt=""
+            />
+            <div className="font-black text-3xl">William Shabaan</div>
+            <div className="text-lg font-light">Secretary General</div>
+          </div>
         </div>
       </Container>
     </>

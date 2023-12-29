@@ -1,5 +1,4 @@
 import Container from "../Components/Container";
-import Img1 from "../Assets/img1.png";
 import { SocialIcon } from "react-social-icons";
 
 export default function Contact() {
