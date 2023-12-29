@@ -20,3 +20,5 @@ export const pastEvents = [
     image: "/parliament_visit_1.jpg",
   },
 ];
+
+export const upcomingEvents = [];
