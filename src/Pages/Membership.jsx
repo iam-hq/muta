@@ -42,8 +42,8 @@ export default function Membership() {
         <div className="grid grid-cols-3 gap-4">
           <div className="flex flex-col items-center">
             <img
-              src={Img1}
-              className="w-48 object-cover rounded-full border-4 shadow-lg"
+              src={"/president.jpg"}
+              className="w-20 h-20 sm:w-48 sm:h-48 object-cover rounded-full border-4 shadow-lg"
               alt=""
             />
             <div className="font-black text-lg text-center sm:text-3xl">
@@ -56,8 +56,92 @@ export default function Membership() {
 
           <div className="flex flex-col items-center">
             <img
+              src={"/vice_president.jpg"}
+              className="w-20 h-20 sm:w-48 sm:h-48 object-cover rounded-full border-4 shadow-lg"
+              alt=""
+            />
+            <div className="font-black text-lg text-center sm:text-3xl">
+              Bullah M'bwana
+            </div>
+            <div className="text-sm sm:text-lg text-center font-light">
+              Vice President
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <img
+              src={"/secretary.jpg"}
+              className="w-20 h-20 sm:w-48 sm:h-48 object-cover rounded-full border-4 shadow-lg"
+              alt=""
+            />
+            <div className="font-black text-lg text-center sm:text-3xl">
+              William Shabaan
+            </div>
+            <div className="text-sm sm:text-lg text-center font-light">
+              Secretary General
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <img
+              src={"/vice_secretary.jpg"}
+              className="w-20 h-20 sm:w-48 sm:h-48 object-cover rounded-full border-4 shadow-lg"
+              alt=""
+            />
+            <div className="font-black text-lg text-center sm:text-3xl">
+              Khadija Issah
+            </div>
+            <div className="text-sm sm:text-lg text-center font-light">
+              Vice Secretary General
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <img
+              src={"/publicity_secretary.jpg"}
+              className="w-20 h-20 sm:w-48 sm:h-48 object-cover rounded-full border-4 shadow-lg"
+              alt=""
+            />
+            <div className="font-black text-lg text-center sm:text-3xl">
+              Yusuf Chindamba
+            </div>
+            <div className="text-sm sm:text-lg text-center font-light">
+              Publicity Secretary
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <img
+              src={"/tresurer_general.jpg"}
+              className="w-20 h-20 sm:w-48 sm:h-48 object-cover rounded-full border-4 shadow-lg"
+              alt=""
+            />
+            <div className="font-black text-lg text-center sm:text-3xl">
+              Eisha Kwisolongole
+            </div>
+            <div className="text-sm sm:text-lg text-center font-light">
+              Treasurer General
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <img
+              src={"/NEC_Member_1.jpg"}
+              className="w-20 h-20 sm:w-48 sm:h-48 object-cover rounded-full border-4 shadow-lg"
+              alt=""
+            />
+            <div className="font-black text-lg text-center sm:text-3xl">
+              Hussein Sugar
+            </div>
+            <div className="text-sm sm:text-lg text-center font-light">
+              NEC Member
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <img
               src={Img1}
-              className="w-48 object-cover rounded-full border-4 shadow-lg"
+              className="w-20 h-20 sm:w-48 sm:h-48 object-cover rounded-full border-4 shadow-lg"
               alt=""
             />
             <div className="font-black text-lg text-center sm:text-3xl">
@@ -71,7 +155,7 @@ export default function Membership() {
           <div className="flex flex-col items-center">
             <img
               src={Img1}
-              className="w-48 object-cover rounded-full border-4 shadow-lg"
+              className="w-20 h-20 sm:w-48 sm:h-48 object-cover rounded-full border-4 shadow-lg"
               alt=""
             />
             <div className="font-black text-lg text-center sm:text-3xl">
@@ -85,7 +169,7 @@ export default function Membership() {
           <div className="flex flex-col items-center">
             <img
               src={Img1}
-              className="w-48 object-cover rounded-full border-4 shadow-lg"
+              className="w-20 h-20 sm:w-48 sm:h-48 object-cover rounded-full border-4 shadow-lg"
               alt=""
             />
             <div className="font-black text-lg text-center sm:text-3xl">
@@ -99,7 +183,7 @@ export default function Membership() {
           <div className="flex flex-col items-center">
             <img
               src={Img1}
-              className="w-48 object-cover rounded-full border-4 shadow-lg"
+              className="w-20 h-20 sm:w-48 sm:h-48 object-cover rounded-full border-4 shadow-lg"
               alt=""
             />
             <div className="font-black text-lg text-center sm:text-3xl">
@@ -113,7 +197,7 @@ export default function Membership() {
           <div className="flex flex-col items-center">
             <img
               src={Img1}
-              className="w-48 object-cover rounded-full border-4 shadow-lg"
+              className="w-20 h-20 sm:w-48 sm:h-48 object-cover rounded-full border-4 shadow-lg"
               alt=""
             />
             <div className="font-black text-lg text-center sm:text-3xl">
@@ -127,7 +211,7 @@ export default function Membership() {
           <div className="flex flex-col items-center">
             <img
               src={Img1}
-              className="w-48 object-cover rounded-full border-4 shadow-lg"
+              className="w-20 h-20 sm:w-48 sm:h-48 object-cover rounded-full border-4 shadow-lg"
               alt=""
             />
             <div className="font-black text-lg text-center sm:text-3xl">
@@ -141,7 +225,7 @@ export default function Membership() {
           <div className="flex flex-col items-center">
             <img
               src={Img1}
-              className="w-48 object-cover rounded-full border-4 shadow-lg"
+              className="w-20 h-20 sm:w-48 sm:h-48 object-cover rounded-full border-4 shadow-lg"
               alt=""
             />
             <div className="font-black text-lg text-center sm:text-3xl">
@@ -155,91 +239,7 @@ export default function Membership() {
           <div className="flex flex-col items-center">
             <img
               src={Img1}
-              className="w-48 object-cover rounded-full border-4 shadow-lg"
-              alt=""
-            />
-            <div className="font-black text-lg text-center sm:text-3xl">
-              William Shabaan
-            </div>
-            <div className="text-sm sm:text-lg text-center font-light">
-              Secretary General
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center">
-            <img
-              src={Img1}
-              className="w-48 object-cover rounded-full border-4 shadow-lg"
-              alt=""
-            />
-            <div className="font-black text-lg text-center sm:text-3xl">
-              Duncani Mjuweni
-            </div>
-            <div className="text-sm sm:text-lg text-center font-light">
-              President
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center">
-            <img
-              src={Img1}
-              className="w-48 object-cover rounded-full border-4 shadow-lg"
-              alt=""
-            />
-            <div className="font-black text-lg text-center sm:text-3xl">
-              Bullah M'bwana
-            </div>
-            <div className="text-sm sm:text-lg text-center font-light">
-              Vice President
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center">
-            <img
-              src={Img1}
-              className="w-48 object-cover rounded-full border-4 shadow-lg"
-              alt=""
-            />
-            <div className="font-black text-lg text-center sm:text-3xl">
-              William Shabaan
-            </div>
-            <div className="text-sm sm:text-lg text-center font-light">
-              Secretary General
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center">
-            <img
-              src={Img1}
-              className="w-48 object-cover rounded-full border-4 shadow-lg"
-              alt=""
-            />
-            <div className="font-black text-lg text-center sm:text-3xl">
-              Duncani Mjuweni
-            </div>
-            <div className="text-sm sm:text-lg text-center font-light">
-              President
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center">
-            <img
-              src={Img1}
-              className="w-48 object-cover rounded-full border-4 shadow-lg"
-              alt=""
-            />
-            <div className="font-black text-lg text-center sm:text-3xl">
-              Bullah M'bwana
-            </div>
-            <div className="text-sm sm:text-lg text-center font-light">
-              Vice President
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center">
-            <img
-              src={Img1}
-              className="w-48 object-cover rounded-full border-4 shadow-lg"
+              className="w-20 h-20 sm:w-48 sm:h-48 object-cover rounded-full border-4 shadow-lg"
               alt=""
             />
             <div className="font-black text-lg text-center sm:text-3xl">
